@@ -3,7 +3,7 @@
 <p>СУБД ORACLE, использование таблицы DUAL с тестовыми данными.</p>
 
 ### Использованные навыки:
-<p><li><li>WITH table__name AS...</li></li></p>
+<p style="font-size: 10px;"><li>WITH table__name AS...</li></p>
 <p><li>row_number () OVER (PARTITION BY a ORDER BY b DESC)</li></p>
 <p><li>UNION ALL</li></p>
 <p><li>CASE WHEN ...THEN..ELSE...END</li></p>
