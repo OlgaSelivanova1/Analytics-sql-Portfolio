@@ -5,7 +5,6 @@
 | Папка        | Contents                                                  |
 | ------------- | --------------------------------------------------------- |
 | `Analytics-sql-Portfolio/`   | Общая папка с файлом описания задач .docx и папка с решениями .sql     |
-| `Zadachi.docx` | Текстовый файл с описанием постановки задач (количество: 5) |
-| `scripts/`    | Schema setup, sample data, and test harness scripts       |
-| `docs/`       | Design notes, ERD overview, performance tuning log        |
+| `Zadachi.docx` | ТЗ: постановка задач в количестве 5 шт |
+| `my-quary/`    | Выполненные крипты в формате .sql    |
 
