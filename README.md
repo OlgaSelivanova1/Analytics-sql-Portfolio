@@ -3,15 +3,18 @@
 <p>СУБД ORACLE, использование таблицы DUAL с тестовыми данными.</p>
 
 ### Использованные навыки:
-WITH <table__name> AS 
-row_number () OVER (PARTITION BY a ORDER BY b DESC) 
-UNION ALL 
-CASE WHEN ...THEN..ELSE...END
-FULL JOIN
-NVL(<name_column>,0)
-
-
-
+<p><li><li>WITH table__name AS...</li></li></p>
+<p><li>row_number () OVER (PARTITION BY a ORDER BY b DESC)</li></p>
+<p><li>UNION ALL</li></p>
+<p><li>CASE WHEN ...THEN..ELSE...END</li></p>
+<p><li>FULL JOIN</li></p>
+<p><li>NVL(name_column,0)</li></p>
+<p><li>LAG(name_column) OVER (ORDER BY name_column_1,name_column_n)</li></p>
+<p><li>LEAD(name_column) OVER (ORDER BY name_column_1,name_column_n)</li></p>
+<p><li>MAX(name_column) OVER (ORDER BY name_column_1,name_column_n)</li></p>
+<p><li>WHERE name_column IS NOT NULL</li></p>
+<p><li>MAX/MIN</li></p>
+<p><li>GROUP BY/ ORDER BY</li></p>
 
 ## Что содержит данный репозиторий?
 | Папка        | Contents                                                  |
@@ -75,6 +78,7 @@ Is_deleted_src = 1 означает, что если такая сделка е�
 
 ### Задача №5
 <p>Схлопнуть периоды, если у них все атрибуты одинаковые</p>
+
 ![Условие данных](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/images.png/task_5_tbl.png).
 
 [Ссылка на решение](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/my-quary/myquary_task_5.sql)
