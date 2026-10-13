@@ -27,10 +27,34 @@ Is_deleted_src = 1 означает, что если такая сделка е�
 
  ![Ожидаемый результат](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/images.png/task_1_resultbl.png)
 
+ [Ссылка на решение](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/my-quary/myquary_task_1.sql)
+
 ### Задача №2
  ![Таблицы с данными](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/images.png/task_2_tbl+result.png)
 <p>Постановка задачи: вывести уникальные значения из столбца «a», в которых максимальное значение в столбце «b» и соответствующее значение в столбце «c».</p>
 
+### Задача №3
+ ![Условие](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/images.png/task_3_tbl.png)
+<p>Необходимо из 2х заданных таблиц получить итоговую таблицу, в которой требуется создать новые интервалы с уникальной комбинацией полей nm_amt, client_name</p>
+<p>Дополнительно:</p>
+<p>В итоговой таблице добавить отсутствующие периоды. Считаем, что значения полей nm_amt и client_nameотсутствуют в пропущенных периодах.</p>
 
+![Доп условие](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/images.png/task_3_add_condition.png)
+
+### Задача №4
+<p>Есть исходные данные по дням формата:</p>
+| День | Номер счета | Остаток на счете |
+
+<p>В некоторые дни значений нет (нет как таковой записи в принципе).
+Отсутствие значения подразумевает под собой нулевой остаток, но такие данные не хранятся.
+Если значение остатка по счету изо дня в день одинаковое – в исходных данных на каждый день лежит одинаковый остаток.
+Нужно предложить вариант раскладки значений из дней в периоды постоянства остатка. Периоды когда остаток равен нулю тоже надо показывать.</p>
+
+<p>Структура итоговой таблицы:</p>
+| Дата с  | Дата по | Номер счета | Остаток на счете |
+
+### Задача №5
+<p>Схлопнуть периоды, если у них все атрибуты одинаковые</p>
+![Условие данных](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/images.png/task_5_tbl.png).
 
 
