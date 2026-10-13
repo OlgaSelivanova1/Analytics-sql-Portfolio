@@ -33,13 +33,20 @@ Is_deleted_src = 1 означает, что если такая сделка е�
  ![Таблицы с данными](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/images.png/task_2_tbl+result.png)
 <p>Постановка задачи: вывести уникальные значения из столбца «a», в которых максимальное значение в столбце «b» и соответствующее значение в столбце «c».</p>
 
+[Ссылка на решение](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/my-quary/myquary_task_2.sql)
+
 ### Задача №3
  ![Условие](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/images.png/task_3_tbl.png)
 <p>Необходимо из 2х заданных таблиц получить итоговую таблицу, в которой требуется создать новые интервалы с уникальной комбинацией полей nm_amt, client_name</p>
+
+[Ссылка на решение](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/my-quary/myquary_task_3.sql)
+
 <p>Дополнительно:</p>
 <p>В итоговой таблице добавить отсутствующие периоды. Считаем, что значения полей nm_amt и client_nameотсутствуют в пропущенных периодах.</p>
 
 ![Доп условие](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/images.png/task_3_add_condition.png)
+[Ссылка на решение](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/my-quary/myquary_task_3_dopchast.sql)
+
 
 ### Задача №4
 <p>Есть исходные данные по дням формата:</p>
@@ -53,8 +60,11 @@ Is_deleted_src = 1 означает, что если такая сделка е�
 <p>Структура итоговой таблицы:</p>
 | Дата с  | Дата по | Номер счета | Остаток на счете |
 
+[Ссылка на решение](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/my-quary/myquary_task_4.sql.sql)
+
 ### Задача №5
 <p>Схлопнуть периоды, если у них все атрибуты одинаковые</p>
 ![Условие данных](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/images.png/task_5_tbl.png).
 
+[Ссылка на решение](https://github.com/OlgaSelivanova1/Analytics-sql-Portfolio/blob/main/interview-tasks%20/bank-client/my-quary/myquary_task_5.sql)
 
